@@ -1,0 +1,129 @@
+body{
+  
+    font: 15px /1.5 Arial ,  sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+ }
+
+ .container {
+     width: 80%;
+     margin: auto;
+     
+     overflow: hidden;
+ }
+ header{
+    background-color: burlywood;
+     color: #ffffff;
+     padding-top: 30px;
+     min-height: 70px;
+     border-bottom: red 3px solid;
+
+ }
+ .button_1{
+     height: 38px;
+     background: Red;
+     border: 0;
+     padding-left: 20px;
+     padding-right: 20px;
+     color: white;
+
+ }
+ header a {
+     color: #ffffff;
+     text-decoration: navy;
+     text-transform: uppercase;
+ }
+ header ul{
+     margin: 0;
+     padding: 0;
+      }
+      header li {
+          
+          display: inline;
+          padding: 0 20px 0 20px;
+
+      }
+      header #branding h1 {
+       margin: 0;
+      }
+      header nav{
+          float: right ;
+          margin-top: 10px;
+      }
+      header .highlight, header .current a{
+          color: #FF8C00;
+          font-weight: bold;
+      }
+      header a:hover{
+          color: #cccccc;
+          font-weight: bold;
+      }
+      #showcase {
+          min-height:  300px;
+          background: url('./img/bg.jpg') no-repeat 0 -400px;
+          text-align: center;
+          
+          color: blueviolet;
+      } 
+      #showcase h1{
+          margin-top: 100px;
+          font-size: 55px;
+          margin-bottom: 10px;
+
+      }
+      #showcase p{
+          font-size: 20px;
+      }
+
+      #newslatter {
+          padding:15px;
+          background: burlywood; 
+          color: white;
+      }
+      #newslatter h1{
+          float: left;
+      }
+      #newslatter form {
+          float: right;
+      }
+      #newslatter input[type = "email"]{
+          padding:  4px;
+          height: 25px;
+          width: 250px;
+      }
+      #boxes {
+          margin-top: 20px;
+      }
+      #boxes .box {
+       float: left;
+       text-align: center;
+       width: 30% ;
+       padding: 10px;
+
+      }
+      #boxes .box img{
+          width: 90px;
+      }
+
+      footer{
+          padding: 10px;
+          margin-top: 10px;
+          color: #ffffff;
+          background-color:#a84;
+          text-align: center ;
+          height: 50px;
+         
+      }
+      aside#sidebar {
+          float: left;
+          width: 30%;
+          margin-top: 10px;
+          margin-left: 50px;
+
+      }
+      article#main-col {
+          float: left;
+          width: 65%;
+
+      }
